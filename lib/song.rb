@@ -33,8 +33,6 @@ class Song
       else
         genre_count[genre] += 1
       end
-      # genre_count[genre] = 1 if genre_count[genre].nil?
-      # genre_count[genre] += 1 if !genre_count[genre].nil?
     end
     genre_count
   end
@@ -47,8 +45,6 @@ class Song
       else
         artist_count[artist] += 1
       end
-      # artist_count[artist] = 1 if artist_count[artist].nil?
-      # artist_count[artist] += 1 if !artist_count[artist].nil?
     end
     artist_count
   end
